@@ -15,6 +15,7 @@ public class MonopolyGame extends Application implements Observer {
     public MonopolyGame () {
         rounds = 10;
         board = new Board();
+
         dice = new Random();
         players = new ArrayList<>();
         playersTFs = new HashMap<>();
@@ -24,6 +25,15 @@ public class MonopolyGame extends Application implements Observer {
 
     private void addPlayer (String name) {
         players.add(new Player(name,board.startingSquare()));
+    }
+
+    private void playRound() {
+
+
+    }
+
+    private String getWinner() {
+        return null;
     }
 
     public static void main(String[] args) {

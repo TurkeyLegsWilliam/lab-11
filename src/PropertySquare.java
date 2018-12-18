@@ -32,7 +32,7 @@ public class PropertySquare extends Square {
             // Player buys property if they can afford it
             if (p.netWorth() > price) {
                 p.decreaseCash(price);
-                //board.addOwner(this, p);
+                // board.addOwner(this, p);
                 this.owner = p;
             }
         } else { // Some other player owns this square
