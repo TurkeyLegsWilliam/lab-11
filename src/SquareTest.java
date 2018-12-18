@@ -50,7 +50,7 @@ public class SquareTest {
             super("", 0);
         }
 
-        public void landOn(Player p) throws Exception {
+        public void landOn(Player p) throws BankruptException {
         }
     }
 

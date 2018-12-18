@@ -45,7 +45,7 @@ public class Player extends Observable implements Comparable  {
     public void setLocation(Square newLocation) {
         location = newLocation;
         setChanged();
-        notifyObservers(location);
+        notifyObservers(this);
     }
 
     /**

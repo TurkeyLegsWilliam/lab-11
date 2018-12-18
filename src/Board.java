@@ -34,6 +34,7 @@ public class Board {
         squares[i] = new PropertySquare("Community Chest", i++, commonPrice, commonRent);
         squares[i] = new PropertySquare("Signal Hill", i++, commonPrice, commonRent);
         squares[i] = new IncomeTaxSquare(i);
+        i++;
         squares[i] = new PropertySquare("CN Rail", i++, commonPrice, commonRent);
         squares[i] = new PropertySquare("Waterloo Row", i++, commonPrice, commonRent);
         squares[i] = new PropertySquare("Chance", i++, commonPrice, commonRent);
@@ -61,6 +62,7 @@ public class Board {
         squares[i] = new PropertySquare("Gas Company", i++, commonPrice, commonRent);
         squares[i] = new PropertySquare("Albert Street", i++, commonPrice, commonRent);
         squares[i] = new GoToJailSquare(i, jailSquare);
+        i++;
         squares[i] = new PropertySquare("Jasper Avenue", i++, commonPrice, commonRent);
         squares[i] = new PropertySquare("St. Albert Trail", i++, commonPrice, commonRent);
         squares[i] = new PropertySquare("Community Chest", i++, commonPrice, commonRent);

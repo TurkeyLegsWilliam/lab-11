@@ -38,7 +38,7 @@ public abstract class Square {
         return number;
     }
 
-    public abstract void landOn(Player p) throws Exception;
+    public abstract void landOn(Player p) throws BankruptException;
 
 
 }
